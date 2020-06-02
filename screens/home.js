@@ -3,8 +3,18 @@ import {StyleSheet, View, Text, TouchableOpacity, FlatList} from 'react-native';
 
 export default function home({navigation}) {
   const [reviews, setReviews] = useState([
-    {title: 'first title', rating: 5, body: 'boody 1', key: '1'},
-    {title: 'second title', rating: 11, body: 'boody 2', key: '2'},
+    {
+      title: 'This is the first reviewed title',
+      rating: 5,
+      body: 'boody 1',
+      key: '1',
+    },
+    {
+      title: 'This is the first reviewed title',
+      rating: 11,
+      body: 'boody 2',
+      key: '2',
+    },
   ]);
 
   return (
